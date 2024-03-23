@@ -1,0 +1,27 @@
+.search-bar{
+    position: relative;
+    display: inline-block;
+}
+
+.search-input{
+    padding: 8px 30px 8px 10px; /* relleno superior - relleno derecho- relleno inferior- relleno izquiedo*/
+    border-radius: 20px;
+    border: none;
+    background-color:#26282A;
+    color: white;
+    font-size: 16px;
+
+}
+
+.search-icon{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    cursor: pointer;
+}
+
+/* .search-input::placeholder {
+    color: white;
+  } */
